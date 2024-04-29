@@ -1,5 +1,5 @@
 from turtle import *
-for i in range(4):
+n = int(input("Сколько сторон у многоугольника? "))
+for i in range(n):
  forward(100)
- left(90)
-input("Нажми, чтоб закрыть программу")
+ left(360//n)
